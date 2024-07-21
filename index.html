@@ -15,6 +15,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <style>
         .button {
+            background-color: #4CAF50; /* Default Green */
             color: white;
             padding: 15px 32px;
             text-align: center;
@@ -26,19 +27,12 @@
             border: none;
             border-radius: 4px;
         }
-
-        .download-button {
-            background-color: #4CAF50; /* Green */
+        .button:hover {
+            background-color: #45a049; /* Darker Green */
         }
-
-        .download-button:hover {
-            background-color: #45a049;
-        }
-
         .linkedin-button {
             background-color: #0077B5; /* LinkedIn Blue */
         }
-
         .linkedin-button:hover {
             background-color: #005983;
         }
@@ -234,7 +228,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["researcher", "coder", "student-athlete"],
+		strings: ["researcher", "engineer", "collaborator"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
